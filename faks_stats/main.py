@@ -101,4 +101,6 @@ plt.hist(data_points, color="g", label="Postotak upisa u višu školu", bins=[i 
 line_pt1, line_pt2 = numpy.array([bh, bh]), numpy.array([0, 12])
 plt.plot(line_pt1, line_pt2, c="red", linewidth=4, label="Bosna i Hercegovina")
 plt.legend(loc="best")
+plt.xlabel("Vrijednost (%)")
+plt.ylabel("Frekvencija")
 plt.show()
